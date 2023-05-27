@@ -1,1 +1,1 @@
-print ("FPB CUY !")
+print ("Ini adalah bahasa gabut")
