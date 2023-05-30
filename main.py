@@ -15,7 +15,6 @@ if (args == 'build'):
     except :
         print('masukan nama file yang akan di eksekusi')
         sys.exit()
-    print('checking file...')
     path = cwd + '/' + sys.argv[2]
     with open(path, 'r') as f:
         first_line = f.readline().strip('\n')

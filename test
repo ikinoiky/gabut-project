@@ -1,29 +1,4 @@
 main
-jalankan di website
 
-anjing adalah seekor binatang yang sedang jatuh cinta
-tuliskan anjing
-tuliskan apa itu anjing
-hasil panen adalah hasil dari 2 ditambah 1 dikurangi 3
-tuliskan berapa hasil panen
-
-
-jika perangkat = android,
-	maka tampilan = perangkat,
-		konfigurasi tampilan,
-			lebar 200,
-			tinggi 500,
-		tambahkan tombol, konfigurasi:
-			lebar 100,
-			tinggi 50,
-			x 10,
-			y 20,
-			warna biru,
-			border solid 2px 16px,
-			ketika tombol di klik "python3 main.py".
-		tambahkan 
-	kalau tidak tuliskan tampilan tidak dapat di tampilkan. 
-jika perangkat = pc, 
-	maka tuliskan bahwa code ini tidak dapat di tampilkan di pc 
-jika perangkat = website
-	maka tuliskan dengan code javascript
+aku adalah seorang gamer
+tuliskan bilal
