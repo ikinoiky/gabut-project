@@ -1,0 +1,26 @@
+{
+  "name": "gabut",
+  "publisher": "iky",
+  "displayName": "Gabut code",
+  "description": "nanti di edit",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "gabut",
+      "aliases": ["Gabut code", "gabut"],
+      "extensions": [".gbt"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "gabut",
+      "scopeName": "main.gbt",
+      "path": "./syntaxes/gabut.tmLanguage.json"
+    }]
+  }
+}

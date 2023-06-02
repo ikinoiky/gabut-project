@@ -1,0 +1,31 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Gabut code",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.gabut",
+				"match": "\\b(utama|sampingan|adalah|jika|ulangi|untuk|kembalikan|kelas|fungsi|atau|dan|lewat|lanjutkan|coba|selain|seperti|kalau|harus|Main|+|-|/|=|==)\\b"			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.gabut",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.gabut",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "main.gbt"
+}

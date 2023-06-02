@@ -5,7 +5,7 @@ cwd = os.getcwd()
 try:
     sys.argv[1]
 except:
-    exec(open('./module/noArgs.py'))
+    print('no args')
     sys.exit()
 
 args = sys.argv[1]
@@ -32,4 +32,7 @@ if (args == 'listen'):
         sys.exit()
     print('Memantau direktori...')
     path = cwd + '/' + sys.argv[2]
-    
+else:    
+    os.system("python3 " + 'module/noArgs.py ' + args)
+    sys.exit()
+
